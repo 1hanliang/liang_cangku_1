@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.zhy.sample.RecyclerViewActivity">
+    <item android:id="@+id/action_listview"
+          android:title="listview"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_gridview"
+          android:title="gridview"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_gor_gridview"
+          android:title="gor_gridview"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_staggered"
+        android:title="staggered"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_shan"
+        android:title="--------"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_jia"
+        android:title="+++++++++"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+</menu>
